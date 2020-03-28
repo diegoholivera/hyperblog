@@ -1,0 +1,12 @@
+git rm untrackea el archivo, lo borra de git
+git reset vuelve a un estado anterior, pero sigue trackeado
+
+git clone url me clona los archivos y el repositorio remoto al ambiente local.
+luego trabajo normal con add y commit, pero cuando quiero mandar el master al remoto, hago un git push
+
+Si quiero actualizar mi repositorio local, hago git fetch, me hace un upgrade desde el repo remoto
+
+si quiero actualizar desde el repo local al directorio de trabajo (archivos), hago merge.
+
+el comando que combina ambas cosas, o sea me trae al mismo tiempo las branches actualizadas de git y los archivos, 
+es pull
