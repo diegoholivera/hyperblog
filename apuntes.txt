@@ -24,3 +24,23 @@ es el nuevo master
 para poder forzar traer historias no relacionadas, o sea archivos que no tengan nada que ver con los que tengo trackeados,
 tengo que hacer:
 git pull origin master --allow-unrelated-histories
+
+para generar clave ssh:
+ssh-keygen -t rsa -b 4096 (4096 es la complejidad matematica) -C "tuemail"
+
+para ver el estado del agente ssh:
+eval $(ssh-agent -s)
+
+va a dar un Agent pid "un nro random"
+
+donde Agent es que el agente ssh esta corriendo
+y pid(process ID) es el nro de id del proceso
+
+diego@DESKTOP-HS94V0F ~/.ssh $ eval $(ssh-agent -s)
+Agent pid 1182
+diego@DESKTOP-HS94V0F ~/.ssh $ ssh-add ~/.ssh/id_rsa
+Enter passphrase for /home/diego/.ssh/id_rsa:
+Identity added: /home/diego/.ssh/id_rsa (/home/diego/.ssh/id_rsa)
+diego@DESKTOP-HS94V0F ~/.ssh $    
+
+aca copie de la consola como agregué la llave ssh privada a mi entorno
