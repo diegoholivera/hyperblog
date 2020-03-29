@@ -20,3 +20,7 @@ pide user y contraseña de github en este caso.
 
 Previamente hay que hacer un git pull para unir lo que esta en el remoto a lo mio, para no pisar el remoto que
 es el nuevo master
+
+para poder forzar traer historias no relacionadas, o sea archivos que no tengan nada que ver con los que tengo trackeados,
+tengo que hacer:
+git pull origin master --allow-unrelated-histories
