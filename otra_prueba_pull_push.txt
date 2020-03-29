@@ -1,0 +1,3 @@
+aca es prueba para crear nuevo archivo y mandarle un push
+en esta prueba empece olvidandome el commit, me mando el push, me dijo todo en orden, pero el repo remoto en github 
+ni se enteró de este archivo
