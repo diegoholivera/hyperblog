@@ -1,3 +1,4 @@
 aca es prueba para crear nuevo archivo y mandarle un push
 en esta prueba empece olvidandome el commit, me mando el push, me dijo todo en orden, pero el repo remoto en github 
-ni se enteró de este archivo
+ni se enteró de este archivo.
+Ahora escribo desde github. Hasta me habia olvidado de hacerle (local) el add ., y descubri que el commit -am no funciona si nunca estuvo trackeado, o sea que el "a" de -am, no es exactamente igual a add . (o add "nombrearchivo)
