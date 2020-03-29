@@ -10,3 +10,13 @@ si quiero actualizar desde el repo local al directorio de trabajo (archivos), ha
 
 el comando que combina ambas cosas, o sea me trae al mismo tiempo las branches actualizadas de git y los archivos, 
 es pull
+
+para llevar mi repo a github o a algun servidor remoto,
+tengo que hacer git remote add origin "link del repo" por ejemplo el primero que hice: 
+https://github.com/diegoholivera/hyperblog.git
+
+git push origin master: git enviale al origin el master local
+pide user y contraseña de github en este caso.
+
+Previamente hay que hacer un git pull para unir lo que esta en el remoto a lo mio, para no pisar el remoto que
+es el nuevo master
