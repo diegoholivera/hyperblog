@@ -64,3 +64,8 @@ para borrar un tag:
 
 para borrarlo en github(desde consola):
   git push origin :refs/tags/"nombreTag"
+
+  para mandar ramas a github solamente hay que hacer:
+    git push origin "nombre rama"
+  se puede poner espacio y otra rama, ej:
+    git push origin "master" "rama1" "rama2" "rama3" 
