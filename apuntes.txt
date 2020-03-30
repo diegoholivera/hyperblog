@@ -53,8 +53,14 @@ git tag -a v"nroVersion" -m "mensaje aclaratorio" "nro acotado commits, ej: 014d
 
 para poder ver los tags asignados de manera completa:
 
-git show-ref --tags
+  git show-ref --tags
 
 para pushear los tags:
-git push origin --tags
+  git push origin --tags
 (solo asi, si de paso tengo un commit que hacer, el commit comun no actualiza los tags en github)
+
+para borrar un tag:
+  git tag -d "nombre del tag"
+
+para borrarlo en github(desde consola):
+  git push origin :refs/tags/"nombreTag"
