@@ -44,3 +44,6 @@ Identity added: /home/diego/.ssh/id_rsa (/home/diego/.ssh/id_rsa)
 diego@DESKTOP-HS94V0F ~/.ssh $    
 
 aca copie de la consola como agregué la llave ssh privada a mi entorno
+
+para agregarla 1ero la agrego en github, luego desde github hago clone en modo ssh y copio ese link.
+Luego desde la consola desde el directorio del proyecto hago git remote set-url origin(donde origin es el nombre del remoto, que es la costumbre, pero si tengo varios remotos en el mismo flujo de trabajo se pueden poner nombres distintos, cualquier cosa, chulavey por ejemplo) "url"
