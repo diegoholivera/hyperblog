@@ -47,3 +47,11 @@ aca copie de la consola como agregué la llave ssh privada a mi entorno
 
 para agregarla 1ero la agrego en github, luego desde github hago clone en modo ssh y copio ese link.
 Luego desde la consola desde el directorio del proyecto hago git remote set-url origin(donde origin es el nombre del remoto, que es la costumbre, pero si tengo varios remotos en el mismo flujo de trabajo se pueden poner nombres distintos, cualquier cosa, chulavey por ejemplo) "url"
+
+Tags: sirven para ponerle versiones precisas a commits que yo quiera elegir.
+git tag -a v"nroVersion" -m "mensaje aclaratorio" "nro acotado commits, ej: 014d59e"
+
+para poder ver los tags asignados de manera completa:
+
+git show-ref --tags
+
