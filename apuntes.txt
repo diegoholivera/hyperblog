@@ -55,3 +55,6 @@ para poder ver los tags asignados de manera completa:
 
 git show-ref --tags
 
+para pushear los tags:
+git push origin --tags
+(solo asi, si de paso tengo un commit que hacer, el commit comun no actualiza los tags en github)
