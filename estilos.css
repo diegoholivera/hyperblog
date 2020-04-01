@@ -43,3 +43,14 @@ body
 {
   margin: 50px 0 0 auto;
 }
+
+#footer
+{
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bolder;
+  border-radius: 150px 60px 150px 60px;
+  border: 9px solid silver;
+  background-color: #33A;
+  margin: 100px 400px 0px 400px;
+}
