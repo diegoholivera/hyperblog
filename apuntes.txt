@@ -64,3 +64,10 @@ para borrar un tag:
 
 para borrarlo en github(desde consola):
   git push origin :refs/tags/"nombreTag"
+
+ si subo un binario al repo remoto como por ejemplo una imagen, y la modifico,
+ al abrir desde github la ultima version, puede que no vea los cambios,
+ ya que github tiene un cache intermedio para los binarios,
+ de hecho si abro el link de la imagen en cuestion en modo incognito, EL CAMBIO SE VERÁ.
+ para forzar la actualizacion (o sea limpiar cache y recargar al 100%), se utiliza ctrl+shift+r
+
